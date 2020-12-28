@@ -1,0 +1,46 @@
+body 
+{ 
+    font: 13px Helvetica, Arial;  
+}
+
+form 
+{ 
+    background: #eee; 
+    padding: 3px; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;  
+}
+
+form input 
+{ 
+    border: 0; 
+    padding: 10px; 
+    width: 80%; 
+    margin-right: 0.5%;  
+}
+
+form button 
+{ 
+    width:8%; 
+    background: rgb(130, 224, 255); 
+    border: none; 
+    padding: 5px;  
+}
+
+.books 
+{ 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0;  
+}
+
+.books li 
+{ 
+    padding: 5px 10px;  
+}
+
+.books li:nth-child(odd) 
+{ 
+    background: #eee; 
+}
